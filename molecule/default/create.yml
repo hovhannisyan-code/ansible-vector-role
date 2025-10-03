@@ -1,0 +1,7 @@
+---
+# Docker driver handles instance creation automatically
+- name: Create
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks: []
